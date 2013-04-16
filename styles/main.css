@@ -49,61 +49,80 @@ table {
 
 /* END RESET */
 
+/* DAVE's CSS Starts Here */
 
 #content {
 	padding: 50px;
+	font-family: 'Droid Sans', Arial, 'Helvetica Neue', 'Lucida Grande', sans-serif;
 }
 
 #title-name {
-	font-family: 'Droid Sans', Arial, 'Helvetica Neue', 'Lucida Grande', sans-serif;
 	font-size: 40px;
 	padding-bottom: 20px;
 	line-height: 1.2;
 }
 
 #summary {
-	font-family: 'Droid Sans', Arial, 'Helvetica Neue', 'Lucida Grande', sans-serif;
 	font-size: 16px;
 	padding-bottom: 10px;
 	line-height: 1.2;
 }
+
 
 ul {
 	list-style:disc;
 	padding: 2px;
 	padding-left: 60px;
 	line-height: 1.2;
-	font-family: 'Droid Sans', Arial, 'Helvetica Neue', 'Lucida Grande', sans-serif;
 	font-size: 16px;
-}
+} 
 
 b {
 	font-weight: bold;
 }
 p {
-	font-family: 'Droid Sans', Arial, 'Helvetica Neue', 'Lucida Grande', sans-serif;
 	font-size: 16px;
 	line-height: 1.2;
 }
 
 h1 {
-	font-family: 'Droid Sans', Arial, 'Helvetica Neue', 'Lucida Grande', sans-serif;
-	font-size: 16px;
+	font-size: 45px;
 	font-weight: bold;
 	padding: 10px 10px 4px 0px;
 }
 
 h2 {
-	font-family: 'Droid Sans', Arial, 'Helvetica Neue', 'Lucida Grande', sans-serif;
 	font-size: 16px;
 	padding: 2px 2px 2px 0px;
 }
 
 h3 {
-	font-family: 'Droid Sans', Arial, 'Helvetica Neue', 'Lucida Grande', sans-serif;
 	font-size: 16px;
 	font-style: italic;
 	font-weight: bold;
 	padding: 2px 2px 2px 0px;
 	line-height: 1.2;
+}
+
+.top-header {
+	padding: 0px 0px 20px 0px;
+}
+
+.top-nav {
+	padding: 0px 0px 20px 0px;
+}
+
+.top-nav ul {
+	display: inline;
+	padding: 0px;
+}
+.top-nav li {
+	display: inline;
+}
+
+.avatar {
+	width: 90px;
+	border-radius: 50%;
+	display: block;
+	float: left;
 }
