@@ -49,39 +49,86 @@ table {
 
 /* END RESET */
 
+
+/* CLEARFIX */
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+
 /* DAVE's CSS Starts Here */
 
-#content {
-	padding: 50px;
+body {
+	background-color: #E8E8E8;
+}
+
+.container {
 	font-family: 'Droid Sans', Arial, 'Helvetica Neue', 'Lucida Grande', sans-serif;
+	max-width: 960px;
+  	margin: 0px auto;
+  	margin-bottom: 40px;
 }
 
-#title-name {
-	font-size: 40px;
-	padding-bottom: 20px;
-	line-height: 1.2;
+.top-nav li {
+	float: left;
+	margin-right: 10px;
 }
 
-#summary {
-	font-size: 16px;
-	padding-bottom: 10px;
-	line-height: 1.2;
+.col-1 {
+	float: left;
+	margin-right: 20px;
+	width: 240px;
+}
+.col-2 {
+	float: left;
+	margin-right: 20px;
+	width: 460px;
+}
+
+.col-3 {
+	float: left;
+	margin-right: 20px;
+	width: 680px;
+}
+
+.col-4 {
+	float: left;
+	width: auto;
+}
+
+.top-header {
+	
+	margin-top: 20px;
+}
+
+.avatar {
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+       -o-border-radius: 50%;
+          border-radius: 50%;
+  width: 150px;
+
 }
 
 
-ul {
-	list-style:disc;
-	padding: 2px;
-	padding-left: 60px;
-	line-height: 1.2;
-	font-size: 16px;
-} 
+  
 
 b {
 	font-weight: bold;
 }
 p {
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 1.2;
 }
 
@@ -92,45 +139,17 @@ h1 {
 }
 
 h2 {
-	font-size: 16px;
-	padding: 2px 2px 2px 0px;
+	font-size: 30px;
+	line-height: 1.2;
+	
 }
 
 h3 {
-	font-size: 16px;
-	font-style: italic;
-	font-weight: bold;
-	padding: 2px 2px 2px 0px;
+	font-size: 18px;
 	line-height: 1.2;
 }
 
-.top-header {
-	padding: 0px 0px 20px 0px;
+h6 {
+	font-size: 14px;
 }
 
-.top-nav {
-	padding: 0px 0px 20px 0px;
-}
-
-.top-nav ul {
-	display: inline;
-	padding: 0px;
-}
-.top-nav li {
-	display: inline;
-}
-
-.avatar {
-	width: 90px;
-	border-radius: 50%;
-	display: block;
-	float: left;
-}
-
-.journal-body {
-	padding: 10px 0px 20px 0px;
-}
-
-.bottom-footer {
-	padding: 0px 0px 20px 0px;
-}
