@@ -193,18 +193,26 @@ h6 {
 }
 
 .leftday {
-	border-left: none;
+	/*border-left: solid;
+	border-width: 1px;*/
+
 }
 
 .leftdayofweek {
 	width: 29px;
+	/*border-left: solid;
+	border-width: 1px;*/
 }
 
 .rightdayofweek {
 	width: 29px;
+	/*border-right: solid;
+	border-width: 1px;*/
 }
 .rightday {
 	border-right: none;
+	/*border-right: solid;
+	border-width: 1px;*/
 }
 
 .bottomday {
