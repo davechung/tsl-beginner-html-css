@@ -153,3 +153,64 @@ h6 {
 	font-size: 14px;
 }
 
+
+.daysofweek {
+	background-color: #f2f2f2;
+	border-bottom: solid 1px;
+	float: left;
+	font-size: 8pt;
+	padding: 3px 5px;
+	text-align: center;
+	width: 30px;
+}
+
+.days {
+	background-color: #fbfbfb;
+	border-style: solid;
+	border-width: 1px;
+	border-top: none;
+	border-left: none;
+	float: left;
+	font-size: 10pt;
+	padding: 10px 5px;
+	text-align: center;
+	width: 29px;
+
+}
+
+.experiment {
+	margin: 20px 0;
+	width: 960px;
+
+}
+
+.cal-frame {
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 1px;
+	overflow: hidden;
+	width: 279px;
+}
+
+.leftday {
+	border-left: none;
+}
+
+.leftdayofweek {
+	width: 29px;
+}
+
+.rightdayofweek {
+	width: 29px;
+}
+.rightday {
+	border-right: none;
+}
+
+.bottomday {
+	border-bottom: none;
+}
+
+.highlight {
+	background-color: #2d9fec;
+}
